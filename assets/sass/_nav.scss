@@ -1,0 +1,30 @@
+#top_bar{
+    background: #2d3e50;
+    color:#fff ;
+    font-size: 14px;
+    a{
+        padding: 0 27px;
+        color: #fff;
+        transition: .7s;
+    }
+    .Login ul li:hover a{
+        color: #fba933;
+    }
+}
+
+#nav{
+    a{
+        font-size: 16px;
+        color: #2d3e50;
+        transition: .7s;
+        // padding: 20px;
+    }
+    ul li:hover a{
+        color: #fba933;
+    }
+    .get a{
+        padding:16px 20px;
+        background: #fba933;
+        border-radius: 8px;
+    }
+}

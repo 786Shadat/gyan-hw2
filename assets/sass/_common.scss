@@ -1,0 +1,27 @@
+%icon_style{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+%icon_style:hover {
+    background: #f4a331;
+    border-color: transparent;
+}
+%section_info{
+    color: #2d3e50;
+    padding: 0 0 64px 0;
+    h2{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 14px;
+        color: #666;
+    }
+}

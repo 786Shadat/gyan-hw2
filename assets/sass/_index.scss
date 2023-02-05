@@ -1,0 +1,102 @@
+#banner {
+    
+    .banner_slider_item{
+        height: 650px !important;
+        background-size: cover !important;
+        background-position: center !important;
+        color: #fff;
+        h3{
+            font-size: 40px;
+        }
+        h1{
+            font-size: 52px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 14px;
+        }
+        a{
+            color: #fff;
+            font-size: 20pt;
+            padding: 10px 19px;
+            background: #2d3e50;
+            display: inline-block;
+            margin: 58px 0;
+            border-radius: 10px;
+            transition: .5s;
+        }
+        a:hover {
+            background: #fbaa33;
+        }
+    }
+    .banner_slider_arrow{
+        @extend %icon_style;
+        font-size: 32px;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .banner_slider_arrow.fa-chevron-left{
+        left: 20px;
+        z-index: 1;
+    }
+    .banner_slider_arrow.fa-chevron-right{
+        right: 20px;
+    }
+}
+// facilities section start
+#facilities{
+    .facilities_item{
+        border: 2px solid #ddd;
+        padding: 28px 0;
+        transform: translateY(-50%);
+        background: #EFEFEF;
+        h3{
+            font-size: 24px;
+            color: #444;
+        }
+        a{
+            font-size: 14px;
+            color: #999;
+            transition: .5s;
+        }
+        a:hover {
+            color: #fbaa33;
+        }
+    }
+} 
+// facilities section end
+// about section start
+#about .section_info{
+    @extend %section_info;
+}
+#about{
+    .about_info img{
+        height: 350px;
+        width: 100%;
+        clip-path: polygon(12% 0, 100% 0%, 90% 100%, 0% 100%);
+    }
+    p{
+        color: #444;
+        font-size: 14px;
+    }
+    a{
+        padding: 10px 16px;
+        background: #2d3e50;
+        font-size: 20px;
+        display: inline-block;
+        border-radius: 7px;
+        transition: .5s;
+        color: #fff;
+        margin-top: 60px;
+    }
+    a:hover{
+        background: #fbaa33;
+    }
+
+}
+
+// about section 

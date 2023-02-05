@@ -1,0 +1,190 @@
+/* template Name: geyen.
+version:1.0.0
+Author: gyen
+Author URI:  
+
+Table of Content
+=============================
+=>Home page
+********************
+1) Nav section
+2) Bannar seciton
+*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+small, span {
+  padding: 0;
+  margin: 0;
+}
+
+ol, ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Arimo", sans-serif;
+}
+
+#banner .banner_slider_arrow {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+#banner .banner_slider_arrow:hover {
+  background: #f4a331;
+  border-color: transparent;
+}
+
+#about .section_info {
+  color: #2d3e50;
+  padding: 0 0 64px 0;
+}
+#about .section_info h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+#about .section_info p {
+  font-size: 14px;
+  color: #666;
+}
+
+#top_bar {
+  background: #2d3e50;
+  color: #fff;
+  font-size: 14px;
+}
+#top_bar a {
+  padding: 0 27px;
+  color: #fff;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+#top_bar .Login ul li:hover a {
+  color: #fba933;
+}
+
+#nav a {
+  font-size: 16px;
+  color: #2d3e50;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+}
+#nav ul li:hover a {
+  color: #fba933;
+}
+#nav .get a {
+  padding: 16px 20px;
+  background: #fba933;
+  border-radius: 8px;
+}
+
+#banner .banner_slider_item {
+  height: 650px !important;
+  background-size: cover !important;
+  background-position: center !important;
+  color: #fff;
+}
+#banner .banner_slider_item h3 {
+  font-size: 40px;
+}
+#banner .banner_slider_item h1 {
+  font-size: 52px;
+  font-weight: 700;
+}
+#banner .banner_slider_item p {
+  font-size: 14px;
+}
+#banner .banner_slider_item a {
+  color: #fff;
+  font-size: 20pt;
+  padding: 10px 19px;
+  background: #2d3e50;
+  display: inline-block;
+  margin: 58px 0;
+  border-radius: 10px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#banner .banner_slider_item a:hover {
+  background: #fbaa33;
+}
+#banner .banner_slider_arrow {
+  font-size: 32px;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+#banner .banner_slider_arrow.fa-chevron-left {
+  left: 20px;
+  z-index: 1;
+}
+#banner .banner_slider_arrow.fa-chevron-right {
+  right: 20px;
+}
+
+#facilities .facilities_item {
+  border: 2px solid #ddd;
+  padding: 28px 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: #EFEFEF;
+}
+#facilities .facilities_item h3 {
+  font-size: 24px;
+  color: #444;
+}
+#facilities .facilities_item a {
+  font-size: 14px;
+  color: #999;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+#facilities .facilities_item a:hover {
+  color: #fbaa33;
+}
+
+#about .about_info img {
+  height: 350px;
+  width: 100%;
+  -webkit-clip-path: polygon(12% 0, 100% 0%, 90% 100%, 0% 100%);
+          clip-path: polygon(12% 0, 100% 0%, 90% 100%, 0% 100%);
+}
+#about p {
+  color: #444;
+  font-size: 14px;
+}
+#about a {
+  padding: 10px 16px;
+  background: #2d3e50;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 7px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #fff;
+  margin-top: 60px;
+}
+#about a:hover {
+  background: #fbaa33;
+}/*# sourceMappingURL=style.css.map */
